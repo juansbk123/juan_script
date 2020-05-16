@@ -1,0 +1,8 @@
+*{
+    background-color: gray;
+}
+
+#nombre{
+    border-radius: 50px;
+    background-color: chartreuse;
+}

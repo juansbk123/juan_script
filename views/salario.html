@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="../js/salary.js"></script> -->
+</head>
+<body>
+        <h1>SALARIO</h1>
+<fieldset>
+    <legend>se requiere</legend>
+    <label for="">Nombre:</label>
+    <input type="texto" id="name"><br>
+    <label for="">Edad:</label>
+    <input type="text" id="year"><br>
+    <label for="">Salario</label>
+    <input type="text" id="salary"><br>
+    <input type="button" onclick="calcular()" value="calcular" ></input>
+
+    <!-- <input type="button" onclick="showdata()"  value="Enviar"></input> -->
+
+</fieldset>
+
+<fieldset>
+    <legend>Indicaciones</legend>
+    <p>a. Si, es menor de 16 no tiene <strong> edad para trabajar</strong>.</p>
+    <p>b. Entre 19 y 50 años el salario es un <strong>  5 por ciento más</strong>.</p>
+    <p>c. Entre 51 y 60 años el salario es un <strong> 10 por ciento más</strong>.</p>
+    <p>d. Si es mayor de 60 el salario es un <strong>  15 por ciento más</strong>.</p>
+</fieldset>
+
+    <fieldset>
+        <legend>Respuesta</legend>
+        <p>Rpta:</p>
+        <label for="">Alternativa</label><br>
+        <input type="text" id="letra"><br><br>
+        <label for="">Bono</label><br>
+        <input type="text" id="bono" disabled>
+    </fieldset>
+
+
+    <script src="../js/salary.js"></script>
+    
+</body>
+</html>

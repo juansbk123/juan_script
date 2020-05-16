@@ -1,0 +1,22 @@
+*{
+    margin: 5px;
+    
+}
+
+#word_left{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    margin-top: 60px;
+    float: left;
+}
+
+#word_right{
+    width: 130px;
+    height: 100px;
+    background-color: magenta;
+    margin-top: 60px;
+    float: right;
+    padding: ;
+
+}
